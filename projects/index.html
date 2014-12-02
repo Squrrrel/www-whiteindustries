@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>White Industries</title>
+	<link rel="stylesheet" href="css/en_default.css">
+</head>
+<body>
+	<div id="site-wrapper">
+		<div id="toolbar">
+			<img src="../res/images/logo.png" onClick="home()" />
+			<p id="logo-heading" onClick="home()">White Industries</p>
+			<center>
+			<button onClick="home()">Home</button>
+			<button onClick="projects()">Projects</button>
+			<button onClick="downloads()">Downloads</button>
+			<button onClick="products()">Products</button>
+			<button onClick="contact()">Contact</button>
+		</center><div>
+		<div id="menu-button" />
+		<div id="main-content">
+			<center><p id="os-heading">Ephixia</p></center>
+			<center><p id="os-desc">Ephixia is an operating system for mutli-CPU support, including AMD and Intel.</p></center>
+			<center><p id="os-launch">Planned release: TBA</p></center>
+			<center><p id="os-status">Project Status: Under Construction</p></center>
+		</div>
+	</div>
+</body>
+<script>
+function home() {
+	window.location.assign('../index.html');
+}
+function projects() {
+	window.location.assign('../projects/index.html');
+}
+function downloads() {
+	window.location.assign('../downloads/index.html');
+}
+function products() {
+	window.location.assign('../products/index.html');
+}
+function contact() {
+	window.location.assign('../contact/index.html');
+}
+</script>
+</html>
